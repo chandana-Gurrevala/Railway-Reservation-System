@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{  
+    margin-top: 0px;  
+    margin-bottom: 5px;  
+    margin-right: 250px;  
+    margin-left: 250px;   
+    font-family: verdana;  
+    font-size: 95%  
+      
+     }  
+p.ex1{
+	padding:5px 0px 0px 5px;
+	style="font-family:"Times New Roman",Times,serif;
+}
+h1 {
+  text-shadow: 3px 2px grey;
+}
+</style>
+</head>
+<body bgcolor="#33FFCF">
+<p class="ex1">
+<marquee><h1><font size="+10"><center>INDIAN RAILWAYS</center> </font></h1></marquee>
+<center>
+<h2>RESERVATION/CANCELLATION REQUISITION FORM</h2>
+<form action="alternative.php" method="post">
+	<p>If you are a Medical Practioner.PLease tick()in Box Dr.<input type="checkbox" name="medical" value="med">(You could be of help in an emergency)
+	<br>
+	If you want Sr.Citizen concession,please write Yes/No in box<input type="checkbox" name="senior" value="senior"><br>(if yes,please carry a proof of age during the
+	journey to avoid inconvenience of penal charging under extant Railway Rules)
+	<br>
+	Do you want to be upgraded without ant extra charge?Write[ ]Yes/No in the box.<br>(If this option is not
+	exercised,full fare paying passengers may be upgraded automatically)
+	<br>
+	<br>
+	<br>
+	Train No & Name:
+	<input type="text" name="trainname" size="35">&nbsp &nbsp &nbsp 
+	Date of Journey:
+	<input type="date" name="jdate" size="45">
+	<br>
+	<br>
+	Class:
+	<input type="text" name="clss" size="35">&nbsp &nbsp
+	No.of Berth/Seat:
+	<input type="int" name="nos" size="35"><br><br>
+	Station From:
+	<input type="text" name="from" size="35">
+	Station To:
+	<input type="text" name="to" size="35"><br><br>
+	Boarding At:
+	<input type="text" name="boarding" size="35">
+	Reservation Upto:
+	<input type="text" name="res_upto" size="35"><br><br>
+
+	<table style="width:55%" align="center">
+	<tr>
+	<th> S.No</th>
+      <th><font color="black">Name in Block Letters(not<br/>
+        more then 15 chars)</font></th>
+        <th><font color="black">Sex<br>(M/F/O)</font></th>
+        <th><font color="black">Age</font></th>
+        <th><font color="black">Concession/<br/>
+          Travel<br/>
+          Authority No.</font></th>
+          <th><font color="black">Choice<br>
+            if any</font></th>
+      </tr>
+          <tr>
+            <td><font color="black">1</font></td>
+            <td><input type="text"style="width:98%;" name="name1"></td>
+            <td><input type="text"style="width:98%;"name="sex1"></td>
+            <td><input type="number"style="width:98%;"name="age1"></td>
+            <td><input type="text"style="width:98%;"name="con1"></td>
+            <td><input type="text"style="width:98%;"name="choice1"></td>
+          </tr>
+		  <tr>
+            <td><font color="black">2</font></td>
+            <td><input type="text"style="width:98%;" name="name2"></td>
+            <td><input type="text"style="width:98%;"name="sex2"></td>
+            <td><input type="text"style="width:98%;" name="age2"></td>
+            <td><input type="text"style="width:98%;" name="con2"></td>
+            <td><input type="text"style="width:98%;" name="choice2"></td>
+          </tr>
+          <tr>
+            <td><font color="black">3</font></td>
+            <td><input type="text"style="width:98%;" name="name3"></td>
+            <td><input type="text"style="width:98%;" name="sex3"></td>
+            <td><input type="number"style="width:98%;" name="age3"></td>
+            <td><input type="text"style="width:98%;" name="con3"></td>
+            <td><input type="text"style="width:98%;" name="choice3"></td>
+          </tr>
+          <tr>
+            <td><font color="black">4</font></td>
+            <td><input type="text"style="width:98%;" name="name4"></td>
+            <td><input type="text"style="width:98%;" name="sex4"></td>
+            <td><input type="number"style="width:98%;" name="age4"></td>
+            <td><input type="text"style="width:98%;" name="con4"></td>
+            <td><input type="text"style="width:98%;" name="choice4"></td>
+          </tr>
+          <tr>
+            <td><font color="black">5</font></td>
+            <td><input type="text"style="width:98%;" name="name5"></td>
+            <td><input type="text"style="width:98%;" name="sex5"></td>
+            <td><input type="number"style="width:98%;" name="age5"></td>
+            <td><input type="text"style="width:98%;" name="con5"></td>
+            <td><input type="text"style="width:98%;" name="choice5"></td>
+          </tr>
+		 </table>
+		 <h4>CHILDREN BELOW 5 YEARS(FOR WHOM TICKET IS NOT TO BE ISSUED)</h4>
+		 <table width="56%" align="center">
+          <tr>
+            <th><font color="black">S.No</font></th>
+            <th><font color="black">Name in Block Letters</font></th>
+            <th><font color="black">Sex</font></th>
+            <th><font color="black">Age</font></th>
+          </tr>
+          <tr>
+            <td><font color="black">1</font></td>
+            <td><input type="text"style="width:98%;" name="Cname1"></td>
+            <td><input type="text"style="width:98%;" name="Csex1"></td>
+            <td><input type="number"style="width:98%;" name="Cage1"></td>
+          </tr>
+          <tr>
+            <td><font color="black">2</font></td>
+            <td><input type="text"style="width:98%;" name="Cname2"></td>
+            <td><input type="text"style="width:98%;" name="Csex2"></td>
+            <td><input type="number"style="width:98%;" name="Cage2"></td>
+          </tr>
+        </table><br><br/>
+	
+	<br>
+	<input type="image" src="train.png" alt="Submit" width="60" height="40">
+	<input type="image" src="img.png" alt="Submit" width="160" height="40">
+	<br>
+	<br>
+	<p align="center"><font size="+2"><a href="cancel.html">Cancel Ticket</a></p>
+	<img src="delete.png" width="40" height="40">
+</center>
+</form>
+</p>
+</body>
+</html>
